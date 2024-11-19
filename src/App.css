@@ -1,38 +1,479 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.9rem;
+  margin: 10px;
+  padding:0;
+  display: inline;
+  margin-right: 1px;
+ }
+ body{
+  color: rgb(247, 240, 240);
+   font-size: 30px;         /*about  */
+  margin-top: 20px;
+  margin-bottom: 90px;
+  margin-right: 40px;
+  text-align:left;
+  text-align:9px;
+  float:left;
+padding: 0px;
+}
+section {
+  padding: 0rem;               /*about keela words */
+  margin: 1rem 0;
+  margin-top:1rem ;
+} 
+body {
+  background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/*name home page   */
+ h1{
+  color: rgba(246, 248, 249, 0.945);
+  text-align:left;
+  font-size:100px;                  
+  margin-top: 200px;
+  margin-bottom: 20px;
+  margin-left:1px;
+ 
+    }
+    
+   
+  .social-links {
+    display: flex;                
+    justify-content: flex-start;  
+    align-items: center;         
+  }
+  img {
+   margin-top: 4px;  
+   width: 50px;               /*   logo */
+   height:50px;
+   padding: 10px;
+   margin-left:0px;
+   margin-right: 1px;
+   
+  }
+  img:hover {
+    transform: scale(1.7);  
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.3);  
+      
+  }
+ 
+ #home {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.auto-type {
+  margin-top: 20px; 
+  margin-bottom: 1px;/* Spacing between name and typing text */
+  
+}
+ 
+/* Container for the navigation links */
+.navbar {
+  position: absolute;          
+  top: 40px;                   
+  right: 20px;                  
+  display: flex;                
+  gap: 15px;                  
+}
+/* Styling for each link */
+.navbar a {
+  color: hsl(0, 0%, 98%);                  
+  text-decoration: none;        
+  font-size: 20px;             
+  font-family: Arial, sans-serif;  
+  padding: 5px 10px;            
+}
+
+/* Add hover effect */
+.navbar a:hover {
+  color: rgb(211, 122, 12);               
+}
+p{
+  font-size:1erm;
+
+}
+ 
+/* this is about page */
+  .about-container {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+   
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the profile image */
+.profile-image {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.profile-image img {
+  width: 100%;
+  max-width: 250px; /* Adjust as needed */
+  border: 8px solid #f9f7f7;
+  border-radius: 8px;
+}
+  
+
+.about-details h2 {
+  font-size: 1.7rem;
+  color: #f4c016; /* Heading color */
+  margin-bottom: 1rem;
+}
+
+.about-details p {
+  font-size: 1.2rem;
+  color: hsl(0, 7%, 97%);            
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Personal info section */
+.personal-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.info-item .label {
+  font-weight: bold;
+  color: #ffd54f;
+  margin-right: 0.5rem;
+}
+
+.info-item span {
+  color: #ffffff;                     /* personal details*/
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-container {
+      flex-direction: column;
+      align-items: flex-start;
+    
+  }
+  .about-details h2 {
+      font-size: 1.5rem;
+  }
+
+  .about-details p {
+      font-size: 0.95rem;
+  }
+}
+/* this is for resume page */
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #f4f4f4;
+  list-style: none;
+}
+
+.resume-container {
+  width: 90%;
+  margin: 0 auto;
+  padding:2px; 
+}
+
+/* Header styles */
+.resume-header {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding:2px;
+  margin-top:1px;
+  border-radius: 8px 8px 0 0;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  margin-top:1rem
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+  color: #d99607;
+}
+ 
+
+/* Section styles */
+section {
+  margin-bottom: 2px;
+line-height: 1.6;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+   
+}
+
+ul {
+  list-style-type: none;
+  line-height:1.6;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: hsl(300, 17%, 98%);        /* education details*/
+}
+
+ 
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+ 
+ 
+
+@media (max-width: 768px) {
+  .resume-header h1 {
+    font-size: 2rem;
+     
+  }
+}
+ 
+
+.contact h2 {
+  color: #ffc107;
+   
+}
+
+.education h2 {
+  color: #ffc107;
+  max-width: 900px;
+}
+
+
+/*cotact page */
+
+.contact-container {
+  padding: 2px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #ffc107;
+}
+
+.contact-container h1 {
+  font-size: 2rem;
+  text-align:left;
+  color:  #FFC107;
+  margin-bottom:1rem;
+  margin-top: 1rem;
+}
+
+.contact-details,
+.social-profiles {
+padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.contact-details h2,
+.social-profiles h2 {
+  font-size:1.5rem;
+  color: #ffc107;
+  
+}
+
+.contact-details p{
+  font-size: 1.2rem;
+  color: hsl(0, 12%, 95%);
+  margin: 5px 0;
+}
+.social-profiles p {
+  color:#06ea3f;
+  font-size: 1.2rem;
+  padding: 10px;
+ 
+}
+
+a {
+  color: #d90796;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;                      
+  color: #d1750b;
+}
+ 
+ 
+.about img {
+  width:300px;  
+  height:300px;  
+  object-fit: cover;  
+    box-shadow: 0 4px 8px rgba(233, 161, 161, 0.2);  
+  margin: 20px auto;  
+  display: block;  
+  border: 5px solid #cccccc;  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.about img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(183, 8, 8, 0.3);  
+  border-color: #86b3c5;  
+}
+
+.certifications h6{
+  color:#ffc107;
+  font-size:1.3rem;
+}
+.certifications p{
+  font-size:1.2rem;  
+  text-align: left;
+  font-weight: bold;
+  text-wrap: wrap;
+
+}
+.certifications a {
+  color:rgb(12, 252, 96) ;
+}
+ .certifications a:hover{
+  color: #d90796;
+ }
+
+
+.certifications h2 {
+  color: #ffc107;  
+ 
+}
+.certifications {
+  display:left;
+  flex-direction: column;
+  text-overflow:left;
+  gap: 10px;
+   
+   
+}
+
+.certification {
+  display:block; 
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.skills h2 {
+  color: rgb(254, 178, 24);
+   font-size: 1.7rem;
+  display: felx;
+  margin-bottom:0.1rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.skill-bar {
+  flex-grow: 1;
+  height: 10px;
+  background: rgb(222, 8, 222);
+  margin:1.2rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background: rgb(6, 59, 234);
+}
+
+.interests {
+  margin-top: 2rem;
+}
+
+.interests h2 {
+  color:#ffc107;
+                                          /*intrest*/
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.interests-list {
+  display: flex;
+  justify-content:left;
+}
+
+.interest-item {
+  display: inline-block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.interest-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+} 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bottom-left-to-right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;  
+  align-items: flex-end;       
+  gap: 1rem;                   
+  height: 100%;                
+}
+
+ 
+.bottom-left-to-right .item {
+  background: rgb(190, 16, 16); 
+  padding: 1rem;
   color: white;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+} 
+ 
+
+.projects-box {
+  display: inline-block;
+   
+  padding: 1.5rem 2rem;           /* projrcts*/
+  border-radius: 10px;
+  text-align:left;
+}
+     
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;       /* intrests*/
+  justify-content: center;
+  gap: 5rem;
+}
+.resume-container h1{         /* project 2*/
+  font-size: 1.2rem;
+  margin-top:0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
