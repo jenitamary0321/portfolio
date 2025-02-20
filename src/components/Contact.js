@@ -30,7 +30,8 @@ const Contact = () => {
         </a>
       </div>
         <p> <strong>Email Me:</strong> <a href="mailto:jenitamary0321@gmail.com">jenitamary0321@gmail.com</a></p>
-        <p>  <strong>Call Me:</strong> <a href="tel:+91 9787180414">+91 9787180414 , 967773546 </a></p>
+        <p>  <strong>Call Me:</strong> <a href="tel:+91 9787180414">+91 9787180414 , 967773546
+           </a></p>
         
       </div>
     </div>

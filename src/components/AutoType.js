@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const prefixText = "I'm a ";
-const textVariants = ["Coder !!!", "Developer !!!", "Learner for Life !!!", "Enthusiast !!!"];
+const textVariants = ["Coder💻 !!!", "Developer 🌐!!!", "Learner for Life 📚 !!!", "Enthusiast 🔥!!!"];
 
 const AutoType = () => {
   const [displayText, setDisplayText] = useState(prefixText);
