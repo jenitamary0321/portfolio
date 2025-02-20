@@ -40,7 +40,7 @@ function About() {
                             <span className="label">Degree:</span> <span>Bachelor of Computer Application(BCA)</span>
                         </div>  
                         <div className="info-item">
-                            <span className="label">Degree:</span> <span>Master of Computer Application(MCA)</span>
+                            <span className="label">Master Degree:</span> <span>Master of Computer Application(MCA)</span>
                         </div>
                         <div className="info-item">
                             <span className="label">Email:</span> <span>jenitamary0321@gmail.com</span>
