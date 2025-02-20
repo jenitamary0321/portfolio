@@ -5,6 +5,7 @@ body {
   padding:0;
   display: inline;
   margin-right: 1px;
+
  }
  body{
   color: rgb(247, 240, 240);
@@ -24,6 +25,7 @@ section {
 } 
 body {
   background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -109,7 +111,9 @@ p{
   align-items: center;
   padding: 3rem;
    margin-left: 1.1rem;
+   width: 100%;
   font-family: Arial, sans-serif;
+  background-image:url("https://images.alphacoders.com/104/1046781.jpg");
 }
 
 /* Style for the profile image */
@@ -186,6 +190,7 @@ p{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* Basic styles for body */
@@ -194,13 +199,19 @@ body {
   line-height: 1.5;
   color: #f4f4f4;
   list-style: none;
+ 
+
+
 }
 
 .resume-container {
-  width: 90%;
-  margin: 0 auto;
+  width: 110%;
+  margin:auto ;
   padding:2px; 
-}
+   background-image:url("https://img.freepik.com/free-vector/blue-futuristic-waves-background-with-computer-code-technology_53876-119584.jpg?semt=ais_hybrid");
+
+  }
+
 
 /* Header styles */
 .resume-header {
@@ -211,7 +222,9 @@ body {
   border-radius: 8px 8px 0 0;
   font-size: 1.2rem;
   margin-bottom: 2px;
-  margin-top:1rem
+  margin-top:1rem;
+
+
 }
 
 .resume-header h1 {
@@ -219,6 +232,7 @@ body {
   margin-bottom: 10px;
   margin-top: 1rem;
   color: #d99607;
+ 
 }
  
 
@@ -226,6 +240,7 @@ body {
 section {
   margin-bottom: 2px;
 line-height: 1.6;
+
 }
 
 h2 {
@@ -276,11 +291,14 @@ ul li a:hover {
 /*cotact page */
 
 .contact-container {
-  padding: 2px;
-  max-width: 600px;
-  margin: auto;
+  padding:0px;
+  max-width:165%;
+  /* margin: auto; */
   font-family: Arial, sans-serif;
   color: #ffc107;
+  background-size:100%;
+  width:200%;
+    background-image:url("https://img.freepik.com/free-vector/abstract-pixel-rain-background_23-2148384633.jpg?semt=ais_hybrid");  
 }
 
 .contact-container h1 {
@@ -289,6 +307,7 @@ ul li a:hover {
   color:  #FFC107;
   margin-bottom:1rem;
   margin-top: 1rem;
+ 
 }
 
 .contact-details,
@@ -311,20 +330,20 @@ padding: 20px;
   margin: 5px 0;
 }
 .social-profiles p {
-  color:#06ea3f;
+  color:#f8d511;
   font-size: 1.2rem;
   padding: 10px;
  
 }
 
 a {
-  color: #d90796;
+  color: #f7f4f6;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;                      
-  color:#ffc107;
+  color:#f1158e;
 }
  
  
@@ -357,7 +376,7 @@ a:hover {
 
 }
 .certifications a {
-  color:rgb(12, 252, 96) ;
+  color:hsl(189, 96%, 51%)
 }
  .certifications a:hover{
   color: #d90796;
@@ -413,7 +432,7 @@ a:hover {
 
 .skill-level {
   height: 100%;
-  background: rgb(6, 59, 234);
+  background: rgb(19, 190, 48);
 }
 
 .interests {

@@ -24,6 +24,7 @@ function Home() {
         <a href="https://www.linkedin.com/in/jenita-mary-p-8a82a530b/" target="_blank" rel="noopener noreferrer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" className="social-icon" />
         </a>
+        
       </div>
     </section>
   );

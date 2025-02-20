@@ -7,8 +7,23 @@ const Contact = () => {
       <h1>Contact Me</h1>
       <div className="contact-details">
         <h2>My Address</h2>
-        <p> Door No: 2/229, Sesuraja Puram (V&P) Anchetty (TK), Krishnagiri (DT), Tamil Nadu, 635102
-          </p>
+
+        <p>
+          <strong>📍 Location: </strong>
+          <a 
+            href="https://www.google.com/maps/place/2%2F229,+Sesuraja+Puram,+Anchetty,+Krishnagiri,+Tamil+Nadu+635102" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="location-link"
+          >
+            Door No: 2/229, Sesuraja Puram, Anchetty (T.K), Krishnagiri(Dist), Tamil Nadu, 635102
+          </a>
+        </p>
+
+        
+        {/* <p> Door No: 2/229, Sesuraja Puram (V&P) Anchetty (TK), Krishnagiri (DT), Tamil Nadu, 635102
+         
+          </p> */}
       </div>
       <div className="social-profiles">
         <h2>Social Profiles</h2>

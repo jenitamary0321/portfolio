@@ -12,8 +12,6 @@ function About() {
           alt="Profile" 
           className="profile-image" 
         />
-
-             
     
 
                 {/* Details Section */}
